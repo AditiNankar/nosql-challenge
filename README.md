@@ -32,22 +32,22 @@ MongoDB shell command used to import:
 mongoimport --db uk_food --collection establishments --drop --jsonArray --file Resources/establishments.json
 
 ✅ Tasks Completed
-	•	Imported establishments.json into a MongoDB database called uk_food
-	•	Verified data import and structure using:
-	•	list_database_names()
-	•	list_collection_names()
-	•	find_one() with pprint
-	•	Assigned establishments collection to a working variable for reuse
+	- Imported establishments.json into a MongoDB database called uk_food
+	- Verified data import and structure using:
+	- list_database_names()
+	- list_collection_names()
+	- find_one() with pprint
+	- Assigned establishments collection to a working variable for reuse
 ---
 # ✏️ Part 2: Data Cleaning and Updates
 
 ✅ Modifications Performed
-	•	Added a new restaurant: “Penang Flavours” in Greenwich (not yet rated)
-	•	Updated BusinessTypeID for the new restaurant
-	•	Removed all establishments within the “Dover” Local Authority
-	•	Cleaned numeric fields by converting:
-	•	latitude and longitude to float
-	•	RatingValue to int (ignoring invalid entries like "Pass")
+	- Added a new restaurant: “Penang Flavours” in Greenwich (not yet rated)
+	- Updated BusinessTypeID for the new restaurant
+	- Removed all establishments within the “Dover” Local Authority
+	- Cleaned numeric fields by converting:
+	- latitude and longitude to float
+	- RatingValue to int (ignoring invalid entries like "Pass")
 ---
 # 🔍 Part 3: Exploratory Analysis
 
