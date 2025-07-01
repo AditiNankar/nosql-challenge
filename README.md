@@ -31,7 +31,7 @@ This project involves:
 MongoDB shell command used to import:
 mongoimport --db uk_food --collection establishments --drop --jsonArray --file Resources/establishments.json
 
-✅ Tasks Completed
+	Tasks Completed
 	- Imported establishments.json into a MongoDB database called uk_food
 	- Verified data import and structure using:
 	- list_database_names()
@@ -41,7 +41,7 @@ mongoimport --db uk_food --collection establishments --drop --jsonArray --file R
 ---
 # ✏️ Part 2: Data Cleaning and Updates
 
-✅ Modifications Performed
+	Modifications Performed
 	- Added a new restaurant: “Penang Flavours” in Greenwich (not yet rated)
 	- Updated BusinessTypeID for the new restaurant
 	- Removed all establishments within the “Dover” Local Authority
