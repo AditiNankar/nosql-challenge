@@ -39,7 +39,7 @@ mongoimport --db uk_food --collection establishments --drop --jsonArray --file R
 	•	list_collection_names()
 	•	find_one() with pprint
 	•	Assigned establishments collection to a working variable for reuse
-
+---
 ### ✏️ Part 2: Data Cleaning and Updates
 
 ✅ Modifications Performed
@@ -49,7 +49,7 @@ mongoimport --db uk_food --collection establishments --drop --jsonArray --file R
 	•	Cleaned numeric fields by converting:
 	•	latitude and longitude to float
 	•	RatingValue to int (ignoring invalid entries like "Pass")
-
+---
 ### 🔍 Part 3: Exploratory Analysis
 
 All analysis was completed using PyMongo queries and converted into Pandas DataFrames.
@@ -72,7 +72,7 @@ All analysis was completed using PyMongo queries and converted into Pandas DataF
 
 4. Local Authorities with Most Hygiene Score 0
 	•	Used MongoDB aggregation pipeline with $match, $group, and $sort
-
+---
 ### 📤 Output
 
 All queries were validated with:
