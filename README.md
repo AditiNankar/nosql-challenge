@@ -29,7 +29,6 @@ This project involves:
 ### 📂 Data Import
 
 MongoDB shell command used to import:
-```bash
 mongoimport --db uk_food --collection establishments --drop --jsonArray --file Resources/establishments.json
 
 ✅ Tasks Completed
