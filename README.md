@@ -26,7 +26,7 @@ This project involves:
 
 ## 🔄 Part 1: MongoDB Setup
 
-### 📂 Data Import
+# 📂 Data Import
 
 MongoDB shell command used to import:
 mongoimport --db uk_food --collection establishments --drop --jsonArray --file Resources/establishments.json
@@ -39,7 +39,7 @@ mongoimport --db uk_food --collection establishments --drop --jsonArray --file R
 	•	find_one() with pprint
 	•	Assigned establishments collection to a working variable for reuse
 ---
-### ✏️ Part 2: Data Cleaning and Updates
+# ✏️ Part 2: Data Cleaning and Updates
 
 ✅ Modifications Performed
 	•	Added a new restaurant: “Penang Flavours” in Greenwich (not yet rated)
@@ -49,7 +49,7 @@ mongoimport --db uk_food --collection establishments --drop --jsonArray --file R
 	•	latitude and longitude to float
 	•	RatingValue to int (ignoring invalid entries like "Pass")
 ---
-### 🔍 Part 3: Exploratory Analysis
+# 🔍 Part 3: Exploratory Analysis
 
 All analysis was completed using PyMongo queries and converted into Pandas DataFrames.
 
